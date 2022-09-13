@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root{
+    /* bgcolor */
+
+    --background: #3d414d;
+    --primary:#252c3a ;
+    --secondary:#061F6E ;
+
+    /* color de texto */
+
+    --texto1: white;
+    --texto2: rgb(187, 186, 186);
+    --texto3: rgb(130, 129, 129);
+    --titulo1: rgb(178, 118, 6);
+     
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header */
+
+header {
+    background: var(--background);
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 5px 40px 6px 25px;
+    position: fixed;
+    top: 0px;
+}
+
+.titulopag{
+    display: flex;
+    font-weight: 750;
+    color: var(--titulo1);
+    align-items: flex-start;
+    padding: 0px 1125px 0px 0px;
+    font-size: 25px;
+}
+
+.logo{
+    border-radius: 10%;
+    height: 90px;
+}
+
+.carrito{
+    height: 40px;
+    cursor: pointer;
+}
+
+.navbar,
+.navbar-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-list {
+    gap: 30px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.navbar{
+    gap: 60px;
+}
+
+.navbar-list a{
+    color: var(--texto2);
+}
+
+.navbar-list li:first-child> a{
+    color: var(--texto1);
+    font-weight: 600; 
+}
+
+main{
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--texto1);
+    width: 100%;
+}
+
+#hero{
+    margin-top: 100px;
+    padding: 70px 0px;
+    max-width: 2000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.hero-info h1{
+    display: flex;  
+    font-size: 80px;
+    width: 80%;
+    font-weight: 725;
+    min-height: 150px;
+    color: var(--titulo1);
+}
+
+.hero-info p{
+    font-size: 30px ;
+    color: var(--texto3);
+    width:80%;
+
+}
+ .hero-info p> span{
+    font-weight: 700;
+ }
+
+.logogrande{
+    border-radius: 5%;
+    height: 800px;
+}

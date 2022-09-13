@@ -45,7 +45,7 @@ header {
     font-weight: 750;
     color: var(--titulo1);
     align-items: flex-start;
-    padding: 0px 1125px 0px 0px;
+    padding: 0px 900px 0px 0px;
     font-size: 25px;
 }
 
@@ -114,16 +114,16 @@ main{
 .hero-info h1{
     display: flex;  
     font-size: 80px;
-    width: 80%;
+    width: 90%;
     font-weight: 725;
     min-height: 150px;
     color: var(--titulo1);
 }
 
 .hero-info p{
-    font-size: 30px ;
+    font-size: 25px ;
     color: var(--texto3);
-    width:80%;
+    width:90%;
 
 }
  .hero-info p> span{
@@ -132,5 +132,6 @@ main{
 
 .logogrande{
     border-radius: 5%;
-    height: 800px;
+    height: 700px;
+    display: flex;
 }

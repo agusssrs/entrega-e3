@@ -34,8 +34,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
-    padding: 5px 40px 6px 25px;
+    height: 80px;
+    padding: 5px 10px 6px 25px;
     position: fixed;
     top: 0px;
 }
@@ -45,13 +45,17 @@ header {
     font-weight: 750;
     color: var(--titulo1);
     align-items: flex-start;
-    padding: 0px 900px 0px 0px;
-    font-size: 25px;
+    padding: 0px 1090px 0px 0px;
+    font-size: 20px;
+}
+
+span{
+    font-style: italic;
 }
 
 .logo{
     border-radius: 10%;
-    height: 90px;
+    height: 75px;
 }
 
 .carrito{
@@ -68,7 +72,7 @@ header {
 
 .navbar-list {
     gap: 30px;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 300;
 }
 
@@ -83,55 +87,4 @@ header {
 .navbar-list li:first-child> a{
     color: var(--texto1);
     font-weight: 600; 
-}
-
-main{
-    background-color: var(--primary);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: var(--texto1);
-    width: 100%;
-}
-
-#hero{
-    margin-top: 100px;
-    padding: 70px 0px;
-    max-width: 2000px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.hero-info{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-}
-
-.hero-info h1{
-    display: flex;  
-    font-size: 80px;
-    width: 90%;
-    font-weight: 725;
-    min-height: 150px;
-    color: var(--titulo1);
-}
-
-.hero-info p{
-    font-size: 25px ;
-    color: var(--texto3);
-    width:90%;
-
-}
- .hero-info p> span{
-    font-weight: 700;
- }
-
-.logogrande{
-    border-radius: 5%;
-    height: 700px;
-    display: flex;
 }

@@ -17,6 +17,10 @@
      
 }
 
+body{
+    background:#252c3a;
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -28,14 +32,12 @@
 
 /* body */
 
-body{
-    background: linear-gradient(to bottom, #3d414d, #252c3a);
-}
+
 
 /* header */
 
 header {
-    background: var(--background);
+    background: #3a3e4b;
     width:100%;
     display: flex;
     justify-content: space-between;
@@ -119,12 +121,13 @@ main{
     display: flex;
     flex-direction: column;
     width: 80%;
+    padding-bottom: 30px;
 }
 
 .hero-info h1{
     display: flex;  
     font-size: 80px;
-    width: 80%;
+    width: 85%;
     font-weight: 725;
     min-height: 150px;
     color: var(--titulo1);
@@ -164,5 +167,25 @@ main{
  .hero-card img{
     height: 600px;
     border-radius: 20px;
+}
+
+.textoinfo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: var(--texto2);
+    font-size: 20px;
+    width: 70%;
+    border-color: var(--titulo1);
+    border-width: 3px;
+    border-style: solid;
+    padding: 10px;
+    margin: 9% 15%;
+    border-radius: 10px;
+}
+
+.firma{
+    padding-top: 50px;
+    padding-right: 240px;
 }
 

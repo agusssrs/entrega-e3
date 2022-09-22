@@ -170,24 +170,6 @@ main{
     border-radius: 20px;
 }
 
-/* .info-page{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    color: var(--texto2);
-    font-size: 20px;
-    width: 70%;
-    border-color: var(--titulo1);
-    border-width: 3px;
-    border-style: solid;
-    padding: 10px;
-    margin: 9% 15%;
-    border-radius: 10px;
-} */
-
-
-    
-
 .caja{
     display: flex;
     justify-content: center;

@@ -13,7 +13,7 @@
     --texto1: white;
     --texto2: rgb(187, 186, 186);
     --texto3: rgb(130, 129, 129);
-    --titulo1: rgb(178, 118, 6);
+    --titulo1: #b27606;
      
 }
 
@@ -57,7 +57,7 @@ header {
     font-size: 20px;
 }
 
-span{
+.titulosp{
     font-style: italic;
 }
 
@@ -98,6 +98,73 @@ span{
     font-weight: 600; 
 }
 
+.cart{
+    position: absolute;
+    top: 80px;
+    right: 0%;
+    padding: 50px 30px;
+    background: linear-gradient(to bottom, #3a3e4b,#b27606);
+    border: 3px solid #3a3e4b;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+}
+
+.cart h2{
+    font-weight: 800;
+    color:var(--titulo1);
+    padding-bottom: 5%;
+}
+
+.cart-item{
+    display: flex;
+    border: 3px solid var(--titulo1);
+    flex-direction: column;
+    border-radius: 0.5rem;
+    color: var(--titulo1);
+    padding: 5%;
+    background: var(--background);
+    height: 300px;
+    width: 270px;
+
+}
+
+.cart-item img{
+    height: 80%;
+    width: 100%;
+    border-radius: 1rem; 
+}
+
+.item-title{
+    padding-top: 5%;
+}
+
+.item-price{
+    font-weight: 600;
+}
+
+.cart-total{
+    display: flex;
+    font-weight: 700;
+    font-size: larger;
+    color: var(--texto1);
+    padding-top: 10%;
+    padding-bottom: 2%;
+}
+
+.buy-button{
+    background: var(--background);
+    width: 100px;
+    height: 35px;
+    border-radius: 0.5rem;
+    padding: 2%;
+    text-align: center;
+    color: var(--texto2);
+    font-weight: 600;
+    cursor: pointer;
+}
+
 main{
     background: linear-gradient(to bottom,var(--background) ,var(--primary)) ;
     display: flex;
@@ -111,7 +178,7 @@ main{
 #hero{
     margin-top: 100px;
     padding: 70px 0px;
-    max-width: 2000px;
+    max-width: 1980px;
     display: flex;
     justify-content: center;
     align-items: center;

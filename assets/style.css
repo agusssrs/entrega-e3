@@ -14,7 +14,7 @@
     --texto2: rgb(187, 186, 186);
     --texto3: rgb(130, 129, 129);
     --titulo1: #b27606;
-     
+
 }
 
 body{
@@ -99,7 +99,7 @@ header {
 
 .navbar-list li:first-child> a{
     color: var(--texto1);
-    font-weight: 600; 
+    font-weight: 600;
 }
 
 .cart{
@@ -140,7 +140,7 @@ header {
 .cart-item img{
     height: 80%;
     width: 100%;
-    border-radius: 1rem; 
+    border-radius: 1rem;
 }
 
 .item-title{
@@ -211,7 +211,7 @@ main{
 }
 
 .hero-info h1{
-    display: flex;  
+    display: flex;
     font-size: 80px;
     width: 85%;
     font-weight: 725;
@@ -277,6 +277,126 @@ main{
     color: var(--titulo1);
     font-weight: 750;
 }
+
+#vehicles-list{
+    margin-top: 100px;
+    padding: 70px 0px;
+    max-width: 1980px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2%;
+}
+
+/* Audi S3 */
+
+.audis3-list{
+    background: var(--background);
+    border: var(--titulo1)solid 3px;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    color: var(--titulo1);
+}
+
+.audis3-list img{
+    height: 300px;
+    border-radius: 0.5rem;
+}
+
+.audi-info{
+    padding-top: 3%;
+
+}
+
+.audi-info p{
+    font-weight: 500;
+}
+
+.audi-button{
+    background-color: var(--titulo1);
+    width: 150px;
+    height: 32px;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    padding: 3px;
+    border-radius: 0.3rem;
+}
+
+/* Chevrolet Corvette C6 Z06 */
+
+.Z06-list{
+    background: var(--background);
+    border: var(--titulo1)solid 3px;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    color: var(--titulo1);
+}
+
+.Z06-list img{
+    height: 300px;
+    border-radius: 0.5rem;
+}
+
+.Z06-info{
+    padding-top: 2%;
+}
+
+.Z06-info p{
+    font-weight: 500;
+}
+
+.Z06-button{
+    background-color: var(--titulo1);
+    width: 150px;
+    height: 32px;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    padding: 3px;
+    border-radius: 0.3rem;
+}
+
+/* Porsche 911 Turbo S 997.1 */
+
+.P911-list{
+    background: var(--background);
+    border: var(--titulo1)solid 3px;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    color: var(--titulo1);
+}
+
+.P911-list img{
+    height: 325px;
+    border-radius: 0.5rem;
+}
+
+.P911-info{
+    padding-top: 2%;
+}
+
+.P911-info p{
+    font-weight: 500;
+}
+
+.P911-button{
+    background-color: var(--titulo1);
+    width: 150px;
+    height: 32px;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    padding: 3px;
+    border-radius: 0.3rem;
+}
+
 
 
 

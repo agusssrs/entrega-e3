@@ -75,6 +75,11 @@ header {
     cursor: pointer;
 }
 
+.menu-icon{
+    height: 40px;
+    cursor: pointer;
+}
+
 .navbar,
 .navbar-list{
     display: flex;
@@ -176,7 +181,7 @@ header {
     display: none;
 }
 
-#cart-toggle{
+#cart-toggle, #menu-toggle, .menu-label{
     display: none;
 }
 

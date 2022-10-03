@@ -283,9 +283,11 @@ main{
     padding: 70px 0px;
     max-width: 1980px;
     display: flex;
-    justify-content: space-around;
+    gap: 40px;
     align-items: center;
-    gap: 2%;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
 }
 
 /* Audi S3 */
@@ -298,6 +300,8 @@ main{
     flex-direction: column;
     padding: 1%;
     color: var(--titulo1);
+    cursor: pointer;
+    
 }
 
 .audis3-list img{
@@ -323,6 +327,7 @@ main{
     font-weight: 800;
     padding: 3px;
     border-radius: 0.3rem;
+    cursor: pointer;
 }
 
 /* Chevrolet Corvette C6 Z06 */
@@ -335,6 +340,7 @@ main{
     flex-direction: column;
     padding: 1%;
     color: var(--titulo1);
+    cursor: pointer;
 }
 
 .Z06-list img{
@@ -359,6 +365,7 @@ main{
     font-weight: 800;
     padding: 3px;
     border-radius: 0.3rem;
+    cursor: pointer;
 }
 
 /* Porsche 911 Turbo S 997.1 */
@@ -371,6 +378,7 @@ main{
     flex-direction: column;
     padding: 1%;
     color: var(--titulo1);
+    cursor: pointer;
 }
 
 .P911-list img{
@@ -395,8 +403,17 @@ main{
     font-weight: 800;
     padding: 3px;
     border-radius: 0.3rem;
+    cursor: pointer;
 }
 
+footer{
+    font-weight: 800;
+    font-size: 27px;
+}
 
+.sp-footer{
+    font-style: italic;
+    color: var(--titulo1);
+}
 
 

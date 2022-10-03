@@ -21,6 +21,10 @@ body{
     background:#252c3a;
 }
 
+body::-webkit-scrollbar{
+    display: none;
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -109,6 +113,9 @@ header {
     display: flex;
     flex-direction: column;
     z-index: 2;
+    overflow-y: scroll;
+    height: calc(67vh - 80px);
+    display: none;
 }
 
 .cart h2{
@@ -163,6 +170,18 @@ header {
     color: var(--texto2);
     font-weight: 600;
     cursor: pointer;
+}
+
+.cart::-webkit-scrollbar{
+    display: none;
+}
+
+#cart-toggle{
+    display: none;
+}
+
+#cart-toggle:checked + .cart{
+    display: flex;
 }
 
 main{
